@@ -1,0 +1,412 @@
+/* Сброс отступов */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Делаем 3D плеер на весь браузер */
+model-viewer {
+    height: 100vh;
+    width: 100%;
+}
+button {
+    cursor: pointer;
+}
+
+body { margin: 0; }
+canvas { display: block; }
+#timer {
+    position: absolute;
+    top: 13%;
+    left: 89%;
+    font-size: 3vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+
+
+.home{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.back{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+.number2{
+    position: absolute;
+    top: 75%;
+    left: 4%;
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+    display: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.number{
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+    display: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.number1{
+    position: absolute;
+    top: 75%;
+    left: 26%;
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+    display: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* .time{
+    position: absolute;
+    top: 11%;
+    left: 89%;
+    font-size: 55px;
+    color: rgb(255, 0, 0);
+    display: block;
+}
+
+
+#seconds{
+    left: 92%;
+
+} */
+.hour{
+    position: absolute;
+    top: 2%;
+    left: 86%;
+    width: 200px;
+    height: 100px;
+    display: block;
+}
+
+/* Сброс отступов */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Делаем 3D плеер на весь браузер */
+model-viewer {
+    height: 100vh;
+    width: 100%;
+}
+
+#chajnik{
+    position: absolute;
+    top: 50%;
+    left: 77%;
+    width: 150px;
+    height: 150px;
+    display: none;
+
+}
+
+#time_chajnik{
+    position: absolute;
+    top: 43%;
+    left: 82%;
+    font-size: 70px;
+    color: rgb(255, 0, 0);
+    display: none;
+
+}
+
+
+#griby{
+    position: absolute;
+    top: 2%;
+    left: 25%;
+    width: 200px;
+    height: 150px;
+    display: none;
+    
+}
+#time_griby{
+    position: absolute;
+    top: 0%;
+    left: 31%;
+    font-size: 60px;
+    color: rgb(255, 0, 0);
+    display: none;
+
+}
+
+#kartina{
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    width: 200px;
+    height: 150px;
+    display: none;
+
+}
+
+#kotel{
+    position: absolute;
+    top: 5%;
+    left: 80%;
+    width: 250px;
+    height: 250px;
+    display: none;
+
+}
+#time_kotel{
+    position: absolute;
+    top: 0%;
+    left: 85%;
+    font-size: 70px;
+    color: rgb(255, 0, 0);
+    display: none;
+}
+
+#sklad{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    display: none;
+
+}
+
+#time_sklad{
+    position: absolute;
+    top: 29%;
+    left: 60%;
+    font-size: 70px;
+    color: rgb(255, 0, 0);
+    display: none;
+}
+
+.dom{
+    display: none;
+}
+.fon{
+    height: 100vh;
+    width: 100%;
+}
+.plus{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+
+}
+.minus{
+    position: absolute;
+    top: 40%;
+    left: 80%;
+}
+.grib{
+    position: absolute;
+}
+.palka{
+    position: absolute;
+}
+.jabloko{
+    position: absolute;
+    top: 5%;
+}
+.how{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 200px;
+    color: rgb(255, 0, 0);
+}
+.palka1{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    font-size: 100px;
+    color: rgb(255, 0, 0);
+}
+.grib1{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 100px;
+    color: rgb(255, 0, 0);
+}
+.jabloko1{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 100px;
+    color: rgb(255, 0, 0);
+}
+
+.ok{
+    position: absolute;
+    top: 0%;
+    left: 80%;
+    width: 200px;
+    height: 200px;
+
+}
+
+
+.exercise {
+    width: 40%;
+    height: 50vh;
+    position: absolute;
+    right: 30%;
+    top: 30%;
+    display: none;
+
+}
+
+#Level{
+    position: absolute;
+    top: 0%;
+    left: 55%;
+    font-size: 100px;
+    color: rgb(255, 0, 0);
+}
+
+#points_you{
+    position: absolute;
+    top: 15%;
+    left: 57%;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+#points_coniec{
+    position: absolute;
+    top: 15%;
+    left: 70%;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.picture {
+    position: absolute; 
+    display: none;
+    width: 16%;
+    height: 16%;
+    top: 16%;
+    z-index: 10;
+}
+#grib_picture{
+    left: 4%;
+}
+#palka_picture{
+    left: 30%;
+}
+#jabloko_picture{
+    left: 55%;
+}
+
+#money{
+    position: absolute;
+    top: 18%;
+    left: 25%;
+    width: 10%;
+    height: 15%;
+    display: none;
+
+}
+#money_cyfry{
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    font-size: 8vh;
+    display: none;
+    color: rgb(255, 80, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#shop{
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    width: 15%;
+    height: 28%;
+    display: none;
+}
+
+#shop_ground{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    position: absolute;
+    left:0vh;
+    top: 0vh;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.price{
+    position: absolute;
+    display: none;
+    color: rgb(255, 106, 0);
+    font-size: 100px;
+}
+#price1{
+    position: absolute;
+    top:36.5%;
+    left:15%;
+}
+#price2{
+    position: absolute;
+    top:36.5%;
+    left:40%;
+}
+#price3{
+    position: absolute;
+    top:36.5%;
+    left:65.5%;
+}
+#price4{
+    position: absolute;
+    top:36.5%;
+    left:90.5%;
+}
+#price5{
+    position: absolute;
+    top:84.7%;
+    left:15%;
+}
+#price6{
+    position: absolute;
+    top:84.7%;
+    left:40%;
+}
+#price7{
+    position: absolute;
+    top:84.7%;
+    left:65.5%;
+}
+#price8{
+    position: absolute;
+    top:84.7%;
+    left:90.5%;
+}
+
+.back1{
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 0%;
+    width: 100px;
+    height: 100px;
+}
+.buttons{
+    display: none;
+}
