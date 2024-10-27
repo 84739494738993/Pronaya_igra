@@ -892,7 +892,7 @@ const button1 = document.querySelector('.back1');
 
 
 
-let moveSpeed = 3;
+let moveSpeed = 0.1;
 
 if (isSpeedUp === 1) {
     speed()
